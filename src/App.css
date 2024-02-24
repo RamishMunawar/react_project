@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  background-color: white;
+  color: white;
+  min-height: 100vh;
+}
+
+h1{
+  margin: 0;
+}
+.header{
+  background-color: rgb(0, 0, 95);
+  padding: 8px;
+}
+.main{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 12px;
+  gap: 15px;
+ 
+}
+
+.movie{
+  border-radius: 8px;
+  border: 1px solid gray;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  padding: 3px;
+  font-weight: bold;
+  text-align: start;
+  width: 20%;
+}
+.movie img{
+  height: 230px;
+  width: 100%;
+}
+
+.heading_2{
+  color:black;
+}
